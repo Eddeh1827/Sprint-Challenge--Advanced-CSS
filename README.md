@@ -77,7 +77,7 @@ Your finished project must include all of the following requirements:
 
 ### Import LESS Files
 
-- [] Navigate to your `index.less` file. Notice the file is blank. You have been asked to use a certain import order. That order is as follows:
+- [x] Navigate to your `index.less` file. Notice the file is blank. You have been asked to use a certain import order. That order is as follows:
 
 ```markdown
 1.variables.less
@@ -97,7 +97,7 @@ _You will know everything is working properly when you see the styles enabled fo
 
 - [x] Add a viewport meta tag to the head of your index.html page
 
-- [ ] [Review the provided home desktop design file](design-files/home-desktop.png). You are to build the missing navigation system and header image. You have been provided all content necessary in the [index.html file](index.html)
+- [x] [Review the provided home desktop design file](design-files/home-desktop.png). You are to build the missing navigation system and header image. You have been provided all content necessary in the [index.html file](index.html)
 
 - [ ] Navigation Styles: Use the `navigation.less` file for styling.
 
