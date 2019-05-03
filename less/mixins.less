@@ -6,3 +6,16 @@
 .padded(@padding) {
   padding: @padding;
 }
+
+.btnStyle(@width, @color) {
+  width: @width;
+  color: @color;
+  border-radius: 0.9em;
+  font-size: 1.5em;
+  text-align: center;
+  font-weight: bold;
+  &:hover {
+    color: @btn-bg-color;
+    background-color: darken(@color, 20%);
+  }
+}
