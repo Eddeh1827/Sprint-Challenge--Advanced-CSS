@@ -34,13 +34,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+#1A: An adaptive website has specific widths setup for devices and is designed based upon those widths and styles are static. A fully responsive website is more fluid and is designed in relative units such as % or em which adjusts to the width of the device as needed using media queries.
+
 2. Describe what it means to be mobile first vs desktop first.
+
+#2A: A mobile first approach means that I expect my users to visit primarily on a phone and I need to give the most important content first and would require more time to design. Desktop first is the traditional way in which all or most of the content can be displayed at once and we have more freedom with the design.
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+#3A: This would make any element we add an 'rem' font size to, be relative to the root or html font-size: 62.5%. 1rem === 62.5%;
+
 4. How would you describe preprocessing to someone new to CSS?
 
+#4A: Preprocessing is an efficient, structured way to design your css. It allows you to treat css as if it were similar to html with nesting. You can organize and reuse components in a cleaner way with mixins and variables.
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+#5A: My favorite concept are Mixins/Parametric Mixins I love how they represent 'DRY'. Variables are cool too. Nesting is where I find most of my problems. I'm always moving a nested class out or into something else.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section _will_ prevent you from passing this challenge.
 
@@ -55,11 +65,11 @@ Follow these steps to set up your project:
 - [x] Clone your OWN version of the repository (Not Lambda's by mistake!).
 - [x] Create a new branch: git checkout -b `<firstName-lastName>`.
 - [x] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
-- [ ] Push commits: git push origin `<firstName-lastName>`.
+- [x] Push commits: git push origin `<firstName-lastName>`.
 
 Follow these steps for completing your project.
 
-- [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's Repo). **Please don't merge your own pull request**
+- [x] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's Repo). **Please don't merge your own pull request**
 - [ ] Add your project manager as a reviewer on the pull-request
 - [ ] Your project manager will count the project as complete by merging the branch back into master.
 
@@ -117,7 +127,7 @@ _You will know everything is working properly when you see the styles enabled fo
 
 - [x] [Review the provided home mobile design file](design-files/home-mobile.png). Match your mobile styling the best you can using the design file.
 
-- [ ] Push your changes and create a pull request if you haven't already.
+- [x] Push your changes and create a pull request if you haven't already.
 
 In your solution, it is essential that you follow best practices and produce clean and professional results. Schedule time to review, refine, and assess your work and perform basic professional polishing including spell-checking and grammar-checking on your work. It is better to submit a challenge that meets MVP than one that attempts too much and does not.
 
