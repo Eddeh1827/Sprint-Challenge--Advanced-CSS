@@ -271,6 +271,7 @@ footer {
   .walk {
     display: flex;
     flex-flow: column-reverse nowrap;
+    padding: 0.8em;
   }
 }
 .walk .walk-text {
@@ -300,6 +301,11 @@ footer {
 .walk .walk-text .btn:hover {
   color: #22283a;
   background-color: #cccccc;
+}
+@media (max-width: 500px) {
+  .walk .walk-text .btn {
+    width: 94%;
+  }
 }
 .walk .walk-img {
   width: 46%;
