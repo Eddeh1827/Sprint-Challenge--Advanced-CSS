@@ -1,19 +1,33 @@
 // Navigation code here
 nav {
   text-align: center;
-
+  @media @phone {
+    width: 500px;
+    text-align: center;
+  }
   h1 {
     font-size: 4em;
+    @media @phone {
+      font-size: 4em;
+      .padded(0.2em 0);
+    }
   }
 
   .navlist {
     .flex(row, nowrap);
     justify-content: center;
     align-items: center;
+    @media @phone {
+      justify-content: space-evenly;
+    }
   }
 
   a {
     font-size: 1.5em;
     .padded(1em);
+    text-decoration: none;
+    @media @phone {
+      .padded(0.5em);
+    }
   }
 }
